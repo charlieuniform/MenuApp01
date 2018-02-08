@@ -26,12 +26,12 @@ If you create several copies of the app, each with different images and swap the
 Download the zipfile from github. Extract into you filesystem. The top level directory of the app should be MenuApp01-master, we will change this later. The top level directory or folder name will be the name of the content app in [Charlie Uniform](https://charlieuniform.com). 
 
 You can change the menu by editing the menu items and prices in the index.html file.
-'''
+```
 <li>Farm Burger Deluxe $3.29</li>
-'''
+```
 
 The images are background for divs iin the html structure. You can change them by creating a new image. Adding it to the img folder and modifying tapp.css inthe lines like:
-'''
+```
 #img1 {
 	...
 	background-image: url(../img/<your image file name>);
@@ -39,7 +39,7 @@ The images are background for divs iin the html structure. You can change them b
     background-size: contain; 
     background-repeat: no-repeat;
 }
-'''
+```
 Images with transparent backgrounds work better.
 
 Now name the top level folder something to help you know which menu you are using. Say you want to display on one of your digital screens in the morning your breakfast menu. So upload an image of the breakfast dishes and change the menu text as above. Now rename the top level directory from "MenuApp01-master" to "BreafastMenu". At this point you can drag and drop the new BreafastMenu directory to [Charlie Uniform](https://charlieuniform.com) app. It is now a content application for any of your screens managed by [Charlie Uniform](https://charlieuniform.com). In the morning set the BreafastMenu content app to any of the screens that you want to display it on.
