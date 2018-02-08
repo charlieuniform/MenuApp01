@@ -36,8 +36,8 @@ The images are background for divs iin the html structure. You can change them b
 	...
 	background-image: url(../img/<your image file name>);
 	background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
+	background-size: contain; 
+	background-repeat: no-repeat;
 }
 ```
 Images with transparent backgrounds work better.
